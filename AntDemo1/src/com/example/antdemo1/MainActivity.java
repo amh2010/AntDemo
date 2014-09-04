@@ -3,9 +3,11 @@ package com.example.antdemo1;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 
+	Button btnTest1;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
